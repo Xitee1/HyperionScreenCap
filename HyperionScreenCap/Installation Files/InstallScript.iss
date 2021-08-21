@@ -67,8 +67,8 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 0,6.1
 
 [Files]
-Source: "..\bin\Release\HyperionScreenCap.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\bin\Release\HyperionScreenCap.exe.config"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\bin\x64\Release\HyperionScreenCap.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\bin\x64\Release\HyperionScreenCap.exe.config"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
